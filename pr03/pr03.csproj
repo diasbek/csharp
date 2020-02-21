@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AA40A52F-7AB2-4908-9855-58CF72E2C878}</ProjectGuid>
+    <ProjectGuid>{1A852AA8-598D-4541-892E-C97E80EC906C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_3._1</RootNamespace>
-    <AssemblyName>3.1</AssemblyName>
+    <RootNamespace>pr03</RootNamespace>
+    <AssemblyName>pr03</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -64,6 +64,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,6 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pr03-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pr03-2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
