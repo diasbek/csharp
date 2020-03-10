@@ -36,7 +36,7 @@ namespace pr03
                 string nums = "";
                 for(int i = A; i <= B; i++)
                 {
-           
+            
                     nums = nums  + c.ToString;
                 } 
             
